@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Allan Szczpanski</title>
+    <link rel="stylesheet" href="./styles/estilo.css" />
+</head>
+<body>
+
+    <a class="titulo" href="Projeto yout/index.html" target="_blank" ><h1 class="titulo" >Allan Szczpanski</a></h1>
+    
+    <h2>Área de Cadastro</h2>
+    <form action="Aula.html" target="_blank" method="get">
+       
+        <label>Nome completo: <br/>
+        <input name="nome" type="text"/>
+        </label>
+
+        <label>Descrição:<br/>
+            <textarea name="descricao"></textarea>
+        </label>
+    
+
+        <label>
+            Categoria:<br/>
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="1">Categoria 2</option>
+                <option value="1">Categoria 3</option>
+                <option value="1">Categoria 4</option>
+                <option value="1">Categoria 5</option>
+            </select>
+        </label>
+
+        <label>
+        <input id="teste" type="checkbox"/>
+        Eu declaro que li e aceito os <a class="termoslink" href="termos.html" target="_blank"> termos de serviço.</a>
+        </label>
+
+        <label>
+        <button>Fazer Cadastro</button>
+        </label>
+
+    </form>
+
+
+
+        <h2>Área de Login</h2>
+    <form action="teste.html" method="post">
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+            Primeiro Nome </br>
+            <input type="text" name="name" required minlength="2" />
+        </label>
+
+        <label>
+            Sobrenome </br>
+            <input type="text" name="lastname" />
+        </label>
+
+        <label>
+            E-mail </br>
+            <input type="text" name="email" required pattern="" title="endereço de email" />
+        </label>
+
+    </fieldset>
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <label>
+            Nome da empresa </br>
+            <input type="text" name="companyname" />
+        </label>
+
+        <label>
+            Cargo na empresa </br>
+            <input type="text" name="companyjobtitle" />
+        </label>
+    </fieldset>
+
+
+        <input class="cadastrar" type="submit" value="Cadastrar"/>
+
+    </form>
+
+</body>
+ </html>
